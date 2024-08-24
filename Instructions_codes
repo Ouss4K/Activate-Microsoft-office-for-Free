@@ -1,21 +1,9 @@
-Open CMD as Admin
+Setup Pack Office.
+Run CMD As Admin
+cd /Folder
+setup /configure configuration.xml
 
-cd C:\Program Files (x86)\Microsoft Office\Office16
+Lunch WORD Go to settings > Activation:
+Y63J7-9RNDJ-GD3BV-BDKBP-HH966
 
-or
-
-cd C:\Program Files\Microsoft Office\Office16
-
-+
-
-for /f %x in ('dir /b ..\root\Licenses16\proplusvl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
-
-+
-
-cscript ospp.vbs /inpkey:XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99
-cscript ospp.vbs /unpkey:BTDRB >nul
-cscript ospp.vbs /unpkey:KHGM9 >nul
-cscript ospp.vbs /unpkey:CPQVG >nul
-cscript ospp.vbs /sethst:kms8.msguides.com
-cscript ospp.vbs /setprt:1688
-cscript ospp.vbs /act
+To change language Edit language ID on configuration.xml
