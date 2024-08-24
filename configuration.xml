@@ -1,0 +1,9 @@
+<Configuration>
+  <Add OfficeClientEdition="64"  Channel="PerpetualVL2024">
+     <Product ID="ProPlus2024Volume" PIDKEY="2TDPW-NDQ7G-FMG99-DXQ7M-TX3T2" >
+         <Language ID="fr-fr" />
+    </Product> 
+  </Add>
+  <RemoveMSI />
+  <Property Name="AUTOACTIVATE" Value="1" />
+</Configuration>
